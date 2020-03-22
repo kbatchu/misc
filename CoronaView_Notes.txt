@@ -1,0 +1,2 @@
+1) Make the CDC logo a link to the CDC home page.
+2) Add ‘Alt text’ to the CDC logo image
