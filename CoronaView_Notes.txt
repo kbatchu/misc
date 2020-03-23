@@ -2,3 +2,4 @@
 2) Add ‘Alt text’ to the CDC logo image.
 3) Add aria-labels to the 'maximize' buttons
 4) Make the parent div (class="widget") of the widget focusable by adding 'tabindex=0". Update 'aria-label' of this div dynamically through javascript with the content text e.g. Global Cases are 194,129, updated on 03/12/2020
+5) Make the 'expand' button of the widget 'fa-expand-arrows-alt'.
