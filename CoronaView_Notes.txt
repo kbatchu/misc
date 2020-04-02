@@ -7,3 +7,4 @@
 7) For div id="divHeader_image", remove alt text="Title image" to "CDC Coronavirus Interactive".
 8) Add aria-label to the 'select' element for US Cases dropdown.
 9) Change alt text of CDC logo image to 'CDC Home Page'.
+10) Add role="alert" aria-label="Loading" to img id="loading"
