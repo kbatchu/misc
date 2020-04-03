@@ -9,3 +9,4 @@
 9) Change alt text of CDC logo image to 'CDC Home Page'.
 10) Add role="alert" aria-label="Loading" to img id="loading".
 11) Add Skip link for skipping navigation menus.
+12) Change the 'title' of the page to a more appropriate description. Remove the word 'Prototype'
