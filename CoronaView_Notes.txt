@@ -1,3 +1,17 @@
+1) Make the CDC logo a link to the CDC home page.
+2) Add ‘Alt text’ to the CDC logo image.
+3) Add aria-labels to the 'maximize' buttons
+4) Make the parent div (class="widget") of the widget focusable by adding 'tabindex=0". Update 'aria-label' of this div dynamically through javascript with the content text e.g. Global Cases are 194,129, updated on 03/12/2020
+5) Make the 'expand' button of the widget 'fa-expand-arrows-alt'. Make the 'reset' button 'fa-compress'. I did not find the corresponding 'fa-compress-arrows-alt' in this version.
+6) Make the border of the widget boxes light gray. The black lines are too distracting.
+7) For div id="divHeader_image", remove alt text="Title image" to "CDC Coronavirus Interactive".
+8) Add aria-label to the 'select' element for US Cases dropdown.
+9) Change alt text of CDC logo image to 'CDC Home Page'.
+10) Add role="alert" aria-label="Loading" to img id="loading".
+11) Add Skip link for skipping navigation menus.
+12) Change the 'title' of the page to a more appropriate description. Remove the word 'Prototype'
+13) The img in div id="divHeader_image' should have more descriptive 'alt' text e.g. CDC Coronavirus Interactive, Explore maps,charts and data
+//////////////////////FORMAL TESTS WITH DESCRIPTIONS////////////////////////////////////
 2.4 NAVIGABLE
 -------------
 2.4.1 Bypass Blocks (A) 
@@ -9,4 +23,5 @@ Change the 'title' of the page. Should adequately and briefly describe the conte
 2.4.3 Focus Order (A)
 Make the div id="divHeader_image" focusable by adding tabindex="0". Add 'aria-label' with some text e.g. 'Explore maps, charts and data of Coronavirus - 19 from CDC'. Keep 'alt' text for the img inside this div.
 
-dd
+2.4.4 Link Purpose (In Context) (A)
+Change the aria-label for div id="navButtons" to 'Primary' instead of 'main'.
