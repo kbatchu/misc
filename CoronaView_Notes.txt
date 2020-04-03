@@ -8,3 +8,5 @@ Change the 'title' of the page. Should adequately and briefly describe the conte
 
 2.4.3 Focus Order (A)
 Make the div id="divHeader_image" focusable by adding tabindex="0". Add 'aria-label' with some text e.g. 'Explore maps, charts and data of Coronavirus - 19 from CDC'. Keep 'alt' text for the img inside this div.
+
+dd
