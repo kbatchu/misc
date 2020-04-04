@@ -49,3 +49,20 @@ This logic applies to 'modal' dialogs as well.
 
 3.1.2 Language of Parts (AA)
 - No issues found
+
+3.2 PREDICTABLE
+----------------
+3.2.1 On Focus (A)
+- No issues found
+
+3.2.2 On Input (A)
+- No issues found
+
+3.2.3 Consistent Navigation (AA)
+- No issues found
+
+3.2.4 Consistent Identification (AA)
+- No issues found
+
+
+
