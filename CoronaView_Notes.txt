@@ -18,6 +18,11 @@
 1.4.1 Use of Color A
 1.4.2 Audio Control A
 1.4.3 Contrast (Minimum) AA
+- The link 'Notes' fails contrast check
+- The title of tables e.g. 'Cases by Country' fails contrast check. Same for 'Cases by State'
+- The text 'Data Current as of' and 'WHO(03/24/2019) | CDC (03/23/2019) |' fails contrast check by Axe but passed by Chrome. Recommendation: Consider this as a fail and remediate
+- The text 'Esri' and 'Powered by Esri' fail contrast check by Axe but passed by Chrome. Recommendation: Consider this as a fail and remediate
+
 1.4.4 Resize Text AA
 - No issues found
 
@@ -61,7 +66,6 @@ This logic applies to 'modal' dialogs as well.
 
 2.4.4 Link Purpose (In Context) (A)
 - Change the aria-label for div id="navButtons" to 'Primary' instead of 'main'.
-- Add aria-label to the 'maximize' buttons.
 
 2.4.5 Multiple Ways (AA)
 - No issues found
@@ -69,6 +73,8 @@ This logic applies to 'modal' dialogs as well.
 2.4.6 Headings and Labels (AA)
 - Generate meaningful aria-label text for div id="widget_1" through Javascript for e.g. Global cases are 832,623 as of 03/24/2019.
   Add aria-hidden="true" to div id="globalconf". Do this for the other similar Global and USA widgets.
+- The img in div id="divHeader_image' should have more descriptive 'alt' text e.g. CDC Coronavirus Interactive, Explore maps,charts and data.
+- Add aria-label to all the 'maximize' buttons.
 
 2.4.7 Focus Visible (AA)
 - Make the focus indicator highly visible when an element gets the focus. https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html
