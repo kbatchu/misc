@@ -13,17 +13,55 @@
 13) The img in div id="divHeader_image' should have more descriptive 'alt' text e.g. CDC Coronavirus Interactive, Explore maps,charts and data
 
 //////////////////////FORMAL AUDIT RESULTS WITH DESCRIPTIONS////////////////////////////////////
+1.1 TEXT ALTERNATIVES
+----------------------
+1.1.1 Non-text Content (A)
+- The bar charts under the 'U.S.Cases' need to have associated, accessible data tables. In general, all maps and charts need to have associated, accessible data tables.
+- Add role="alert" aria-label="Loading" to img id="loading".
+
+1.2 TIME-BASED MEDIA
+----------------------
+1.2.1 Audio-only and Video-only (Prerecorded) (A)
+- No issues found
+
+1.2.2 Captions (Prerecorded) (A)
+- No issues found
+
+1.2.3 Audio Description or Media Alternative (Prerecorded) (A)
+- No issues found
+
+1.2.4 Captions (Live) (AA)
+- No issues found
+
+1.2.5 Audio Description (Prerecorded) (AA)
+- No issues found
+
+1.3 ADAPTABLE
+-----------------
+1.3.1 Info and Relationships (A)
+- No issues found
+
+1.3.2 Meaningful Sequence (A)
+- No issues found
+
+1.3.3 Sensory Characteristics (A)
+- No issues found
+
 1.4 DISTINGUISHABLE
 ---------------------
-1.4.1 Use of Color A
-1.4.2 Audio Control A
-1.4.3 Contrast (Minimum) AA
+1.4.1 Use of Color (A)
+- No issues found
+
+1.4.2 Audio Control (A)
+- No issues found
+
+1.4.3 Contrast (Minimum) (AA)
 - The link 'Notes' fails contrast check
 - The title of tables e.g. 'Cases by Country' fails contrast check. Same for 'Cases by State'
 - The text 'Data Current as of' and 'WHO(03/24/2019) | CDC (03/23/2019) |' fails contrast check by Axe but passed by Chrome. Recommendation: Consider this as a fail and remediate
 - The text 'Esri' and 'Powered by Esri' fail contrast check by Axe but passed by Chrome. Recommendation: Consider this as a fail and remediate
 
-1.4.4 Resize Text AA
+1.4.4 Resize Text (AA)
 - No issues found
 
 1.4.5 Images of Text (AA)
@@ -61,6 +99,7 @@ This logic applies to 'modal' dialogs as well.
 
 2.4.3 Focus Order (A) https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html
 - Make the div id="divHeader_image" focusable by adding tabindex="0". Add 'aria-label' with some text e.g. 'Explore maps, charts and data of Coronavirus - 19 from CDC'. Keep 'alt' text for the img inside this div.
+- All the 'tabs' i.e. Home, Global Situation, U.S. Cases etc should be structured inside a 'tab list'. When a 'tab' is focused and 'Enter' or 'Space bar' is pressed, then further tabbing should take focus inside the 'main' content. Left and Right arrow keys should be usable to move left or right to different tabs. For more on Keyboard navigation, read this: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Tab_Role
 - Focus should first be set on <div class="widget3_container_table"> Same for <div class="widget7_container_table">. Add aria-label="Cases by Country table" or other meaningful description. All data tables should be structured to be made 'accessible'. Read: https://www.w3.org/WAI/tutorials/tables/. More exhaustive example with code: https://inclusive-components.design/data-tables/
 - Focus should first be set on <div id="widget_4">. Add aria-label with a meaningful description.
 
