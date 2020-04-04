@@ -1,4 +1,5 @@
 CDC Coronavirus Interactive - Build 1 - Accessibility Audit Report, 4Apr2020
+Device: Windows 10, Laptop
 Software: Google Chrome, Wave, Axe
 WCAG version: 2.0
 ========================================================================================================================================
