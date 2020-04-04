@@ -13,6 +13,17 @@
 13) The img in div id="divHeader_image' should have more descriptive 'alt' text e.g. CDC Coronavirus Interactive, Explore maps,charts and data
 
 //////////////////////FORMAL AUDIT RESULTS WITH DESCRIPTIONS////////////////////////////////////
+1.4 DISTINGUISHABLE
+---------------------
+1.4.1 Use of Color A
+1.4.2 Audio Control A
+1.4.3 Contrast (Minimum) AA
+1.4.4 Resize Text AA
+- No issues found
+
+1.4.5 Images of Text (AA)
+- Ideally the text in div id="divHeader_image' should be converted to text, since people with vision impairments will 'zoom' and text in images get pixelated. https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html
+
 2.1 KEYBOARD ACCESSIBLE
 ------------------------
 2.1.1 Keyboard (A)
@@ -45,7 +56,7 @@ This logic applies to 'modal' dialogs as well.
 
 2.4.3 Focus Order (A) https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html
 - Make the div id="divHeader_image" focusable by adding tabindex="0". Add 'aria-label' with some text e.g. 'Explore maps, charts and data of Coronavirus - 19 from CDC'. Keep 'alt' text for the img inside this div.
-- Focus should first be set on <div id="widget_3">. Add aria-label="Cases by Country table" or other meaningful description. All data tables should be structured to be made 'accessible'. Read: https://www.w3.org/WAI/tutorials/tables/. More exhaustive example with code: https://inclusive-components.design/data-tables/
+- Focus should first be set on <div class="widget3_container_table"> Same for <div class="widget7_container_table">. Add aria-label="Cases by Country table" or other meaningful description. All data tables should be structured to be made 'accessible'. Read: https://www.w3.org/WAI/tutorials/tables/. More exhaustive example with code: https://inclusive-components.design/data-tables/
 - Focus should first be set on <div id="widget_4">. Add aria-label with a meaningful description.
 
 2.4.4 Link Purpose (In Context) (A)
@@ -104,7 +115,7 @@ This logic applies to 'modal' dialogs as well.
 - I found some issues. Use 'Validate by Direct Input' to check here: https://validator.w3.org/
 
 4.1.2 Name, Role, Value (A)
-- No issues found
+- <section id="titleSection"> is not contained by landmarks
 
 
 
