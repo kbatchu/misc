@@ -1,3 +1,7 @@
+CDC Coronavirus Interactive - Build 1 - Accessibility Audit Report, 4Apr2020
+Software: Google Chrome, Wave, Axe
+WCAG version: 2.0
+
 1.1 TEXT ALTERNATIVES
 ----------------------
 1.1.1 Non-text Content (A)
