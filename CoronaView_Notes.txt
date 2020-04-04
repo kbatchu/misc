@@ -64,5 +64,11 @@ This logic applies to 'modal' dialogs as well.
 3.2.4 Consistent Identification (AA)
 - No issues found
 
+3.3 INPUT ASSISTANCE
+--------------------
+3.3.1 Error Identification (A)
+- No issues found
+
+
 
 
