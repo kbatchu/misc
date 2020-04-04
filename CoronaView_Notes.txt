@@ -26,7 +26,9 @@ Change the 'title' of the page. Should adequately and briefly describe the conte
 - Generate meaningful aria-label text for div id="widget_1" through Javascript for e.g. Global cases are 832,623 as of 03/24/2019.
   Add aria-hidden="true" to div id="globalconf". Do this for the other similar Global and USA widgets.
 - Focus should first be set on <div id="widget_3">. Add aria-label="Cases by Country table" or other meaningful description.
-- Focus should first be set on <div id="widget_4">. Add aria-label with a meaninful description.
+- Focus should first be set on <div id="widget_4">. Add aria-label with a meaningful description.
+- Trap Focus - When a widget is maximized, the focus should shift to first focusable element inside the maximized widget. The focus should keep rotating through the focusable elements within the maximized widget, until it is minimized again. When the widget is minimized, the focus should be set back to the element which triggered the maximization of the widget, i.e. the 'maximize' button.
+This logic applies to 'modal' dialogs as well.
 
 
 2.4.4 Link Purpose (In Context) (A)
