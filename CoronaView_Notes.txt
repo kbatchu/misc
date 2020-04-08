@@ -7,7 +7,7 @@ WCAG version: 2.0
 1.1 TEXT ALTERNATIVES
 ----------------------
 1.1.1 Non-text Content (A)
-- The bar charts under the 'U.S.Cases' need to have associated, accessible data tables. In general, all maps and charts need to have associated, accessible data tables.
+- Data Tables: The bar charts under the 'U.S.Cases' need to have associated, accessible data tables. In general, all maps and charts need to have associated, accessible data tables. Add table 'caption' and row and column 'scope' like it is described here: https://webaim.org/techniques/tables/data. For more details, read: https://www.w3.org/WAI/tutorials/tables/
 - Add role="alert" aria-label="Loading" to img id="loading".
 
 1.2 TIME-BASED MEDIA
